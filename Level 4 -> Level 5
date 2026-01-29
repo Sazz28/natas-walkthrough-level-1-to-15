@@ -1,0 +1,11 @@
+a.	I go through with the source code and inspect element Nothing Found and useful.
+b.	Check common files if any!! But nothing found. 
+c.	Then I decide to use burp and intercept request 
+ 
+d.	Nothing looks fishy. But one thinks clicks in my minds was the index.php page with 
+
+Access disallowed. You are visiting from "" while authorized users should come only from "http://natas5.natas.labs.overthewire.org/" 
+e.	So, I try to add referrer header using burp because only authorized users should come only form {http://natas5.natas.labs.overthewire.org/}
+f.	And BOOM!! Access granted!! Also the flag.
+
+FLAG: - (Access granted. The password for natas5 is 0n35PkggAPm2zbEpOU802c0x0Msn1ToK)
