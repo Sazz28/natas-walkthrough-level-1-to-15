@@ -1,0 +1,15 @@
+a.	Is the same as the 6 one’s with the input field and a source code option 
+b.	In the source code option. There is an encoded secret with;
+
+        <censored>
+
+c.	It’s an encoding string, decoding it into ASCII HEX
+
+==QcCtmMml1ViV3b 
+d.	Seems like base64 encoded but in reverse, after it as well I get 
+oubWYf2kBq (it’s a secret for that input field)
+ 
+
+e.	And the FLAG!! I got. 
+Access granted. The password for natas9 is ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t
+ 
