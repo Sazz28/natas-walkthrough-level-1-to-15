@@ -1,0 +1,14 @@
+a.	Same in the view source-code option I got a hint, that Lines 3 and 4 checks to see if what we search for returns a key in an item called “needle”. Lines 6 and 7 pass our input to a search function 
+using a php function called passthru(). This looks like something we may be able to take advantage of because passthru has no checking on the input. It takes whatever value is in $key and executes it blindly 
+trusting that the user is not doing something funny.
+ 
+b.	I try some basic command injection command. 
+ 
+
+c.	But the thing is what can we send through the search field to find us a flag. This requires some bash tricks which will allow me to execute multiple commands and ignore the rest of the command line.
+d.	We should try using the “;” control function because it allows the user to execute multiple commands with the same command line entry.
+; cat /etc/natas_webpass/natas10 #
+e.	DONE!! Got a FLAG!!!
+ 
+
+FLAG: - t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu
