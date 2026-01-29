@@ -1,0 +1,10 @@
+a.	As the same I go through with the source code and inspect element but nothing founds interesting. 
+b.	As the common practice I check for any common directory like robots.txt/sitemap.xml to explore more paths. 
+c.	And I found and disallow path in robots.txt that seems interesting. 
+ 
+d.	So, in the above path like: - http://natas3.natas.labs.overthewire.org/s3cr3t/
+e.	I got something interesting. [USERS.TXT]
+ 
+f.	And there we go. FLAG!!!
+ 
+	natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ
