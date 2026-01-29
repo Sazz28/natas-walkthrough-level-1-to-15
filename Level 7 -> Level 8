@@ -1,0 +1,7 @@
+a.	In This I got two pages with {home and about}
+b.	And, in the source code of the main page I got a hint was like path of the password. 
+ 
+c.	So, I change the index.php   page parameter URL with the above password path.
+
+http://natas7.natas.labs.overthewire.org/index.php?page=/etc/natas_webpass/natas8
+d.	FLAG: -  xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q
