@@ -1,0 +1,11 @@
+a.	With all the previous checks nothing useful found. 
+b.	Using burp, I intercept the request in the burp and check for response. \
+
+  
+
+c.	I got logged in=0 so change it to logged in=1 and again forward the request it required authorization token. I put authorization from the prevision request and all done Access Granted Got the FLAG!!!!
+
+ 
+
+
+		FLAG: - Access granted. The password for natas6 is 0RoJwHdSKWFTYR5WuiAewauSuNaBXned
