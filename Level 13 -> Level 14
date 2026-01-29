@@ -1,0 +1,10 @@
+a.	Is the same as the previous level but with some extra security. 
+b.	In this challenge, file content check in the server side. 
+c.	So, when we upload the normal file it reflect a error 
+d.	In this I use Exif_imagetype() bypass
+e.	The web shell became;
+GIF87a<?php echo shell_exec($_GET['e'].' 2>&1'); ?>
+f.	After I use the method as I use in previous challenge, change extension using inspect element and upload it. 
+g.	With all the same procedure the FLAG was 
+GIF87az3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ 
+# GIF87a is the output of the file so the FLAG is begun with az3U…. tQ
