@@ -1,0 +1,18 @@
+a.	In this level I got a simple login panel, so I review the page source code. My analysis was:
+i.	 If the request includes “username” as a key in the data,
+ii.	Connect to the MySQL database and
+iii.	Perform a SELECT query from the users database with user input.
+iv.	Additionally, if the request includes “debug”, show what query is being executed.
+v.	If the query returns 1 or more rows, print the password.
+vi.	Otherwise, print “access denied
+b.	So, the first click in my mind was SQL injection 
+c.	I start my burp and, As the basics first I use single quote (‘), nothing change but with the double quote (“) I got an error:
+ 
+d.	First basic query to test any login panel was 
+OR 1=1-- - 
+e.	I am with that and DONE authentication bypass successful. 
+“ OR 1=1-- - 
+ 
+
+FLAG: SdqIqBsFcz3yotlNYErZSZwblkm0lrvx
+
