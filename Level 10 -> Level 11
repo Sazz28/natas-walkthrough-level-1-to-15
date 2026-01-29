@@ -1,0 +1,7 @@
+a.	As the previous challenge in the view sourecode option I got something. 
+ 
+b.	This challenge is very similar to the last challenge except that it filters and checks for the following characters [;|&]. After the check it still uses the same php function called passthru().
+c.	So now we have to find a way to send passthru() a command which will show us the flag inside /etc/natas_webpass/natas11.
+.* /etc/natas_webpass/natas11 #
+ 
+FLAG!!: -/etc/natas_webpass/natas11:UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk
