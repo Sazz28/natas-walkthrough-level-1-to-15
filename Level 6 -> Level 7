@@ -1,0 +1,17 @@
+a.	I got something new in this (input field or a view source code option) 
+b.	First, I go with view source code option. 
+
+ 
+
+
+c.	In this the suspicious was (include/secret.inc) path 
+d.	Put that path along with that URL, got a secret that’s required for I input fetid in the home page. 
+<?
+$secret = "FOEIUWGHFEEUHOFUOIU";
+?>
+e.	TADA!!!! With the FLAG!!! 
+
+Access granted. The password for natas7 is bmg8SvU1LizuWjx3y7xkNERkHxGre0GS
+
+ 
+
