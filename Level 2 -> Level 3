@@ -1,0 +1,18 @@
+Accessing the same for the natas2 user 
+a.	Checking the source code nothing found. 
+b.	Checking inspector through inspector element and found an PNG source link with (/files/pixel.png) 
+
+ 
+
+c.	Visiting that URL and I still with empty hands.
+d.	Then I try to do directory listing with /files/ to access. 
+e.	Yup, I Got an users.txt in it. 
+ 
+
+f.	In that users.txt file I got a FLAG!!!! 
+ 
+
+FLAG: - natas3:3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH
+
+
+
